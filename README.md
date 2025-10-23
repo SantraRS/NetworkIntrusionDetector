@@ -29,7 +29,41 @@ This project analyzes network traffic features and applies Deep Reinforcement Le
 ---
 
 ## 📂 **Project Structure**
-NetworkIntrusionDetector/ │ ├── data/ # (GitIgnored) Holds raw, interim, and processed data ├── notebooks/ # Jupyter notebooks for exploration and step-by-step runs │ ├── 01_data_preprocessing.ipynb │ ├── 02_feature_scaling.ipynb │ ├── 03_rl_environment.ipynb │ └── 04_dqn_training.ipynb │ ├── src/ # All Python source code │ ├── data/ │ │ └── make_dataset.py # Downloads, cleans, and splits data │ ├── features/ │ │ └── build_features.py # Scales features and saves scaler │ ├── env/ │ │ └── intrusion_env.py # Defines the custom IntrusionEnv │ ├── models/ │ │ ├── train_agent.py # Trains the DQN model │ │ └── evaluate_agent.py # Evaluates the model and saves plots │ └── utils/ │ └── helpers.py # Manages file paths │ ├── models/ # (GitIgnored) Saved models and scalers │ ├── dqn_agent.zip │ └── scaler.joblib │ ├── media/ │ └── plots/ │ └── confusion_matrix.png # Saved evaluation plot │ ├── requirements.txt # Python dependencies ├── README.md # This file └── .gitignore # Files and folders to ignore
+'''
+NetworkIntrusionDetector/
+│
+├── data/                 # (GitIgnored) Holds raw, interim, and processed data
+├── notebooks/            # Jupyter notebooks for exploration and step-by-step runs
+│   ├── 01_data_preprocessing.ipynb
+│   ├── 02_feature_scaling.ipynb
+│   ├── 03_rl_environment.ipynb
+│   └── 04_dqn_training.ipynb
+│
+├── src/                  # All Python source code
+│   ├── data/
+│   │   └── make_dataset.py       # Downloads, cleans, and splits data
+│   ├── features/
+│   │   └── build_features.py     # Scales features and saves scaler
+│   ├── env/
+│   │   └── intrusion_env.py      # Defines the custom `IntrusionEnv`
+│   ├── models/
+│   │   ├── train_agent.py        # Trains the DQN model
+│   │   └── evaluate_agent.py     # Evaluates the model and saves plots
+│   └── utils/
+│       └── helpers.py            # Manages file paths
+│
+├── models/               # (GitIgnored) Saved models and scalers
+│   ├── dqn_agent.zip
+│   └── scaler.joblib
+│
+├── media/
+│   └── plots/
+│       └── confusion_matrix.png  # Saved evaluation plot
+│
+├── requirements.txt      # Python dependencies
+├── README.md             # This file
+└── .gitignore            # Files and folders to ignore
+'''
 
 ## 🔬 **Methodology**
 
