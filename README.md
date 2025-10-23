@@ -1,4 +1,4 @@
-# NetworkIntrusionDetector
+# Network Intrusion Detector
 # 🤖 Prediction of Network Intrusions using Deep Reinforcement Learning
 
 This project analyzes network traffic features and applies Deep Reinforcement Learning to predict **network intrusions** (Attacks) vs. **benign traffic**.
