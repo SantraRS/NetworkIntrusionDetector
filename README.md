@@ -29,7 +29,7 @@ This project analyzes network traffic features and applies Deep Reinforcement Le
 ---
 
 ## 📂 **Project Structure**
-'''
+```
 NetworkIntrusionDetector/
 │
 ├── data/                 # (GitIgnored) Holds raw, interim, and processed data
@@ -63,7 +63,7 @@ NetworkIntrusionDetector/
 ├── requirements.txt      # Python dependencies
 ├── README.md             # This file
 └── .gitignore            # Files and folders to ignore
-'''
+```
 
 ## 🔬 **Methodology**
 
