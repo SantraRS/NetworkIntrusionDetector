@@ -103,10 +103,6 @@ The trained model (`dqn_agent.zip`) and scaler (`scaler.joblib`) are generated b
 | **Attack (1)** | 0.81 | 0.99 | 0.89 | 9890 |
 | **accuracy** | | | 0.88 | 20000 |
 
-### Confusion Matrix
-
-![Confusion Matrix](media/plots/confusion_matrix.png)
-
 ---
 
 ## 🏁 **Conclusion**
