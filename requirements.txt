@@ -1,0 +1,14 @@
+numpy
+pandas
+scikit-learn
+joblib
+matplotlib
+seaborn
+gymnasium
+stable-baselines3
+optuna
+torch
+tensorboard
+kaggle
+pytest
+kagglehub
